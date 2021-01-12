@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculadora {
+    width: 95%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.calculadora input {
+    width: 100%;
+    border: 1px solid rgba(204, 204, 204, 0.473);
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.calculadora select {
+    width: 100%;
+    height: 40px;
+    border: none;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    border-bottom: 1px solid  rgba(204, 204, 204, 0.473);
+    border-radius: 10px;
+    text-align: center;
+    border-top: 1px solid rgba(204, 204, 204, 0.144);
+}
+.calcular {
+    margin: auto;
+    text-align: center;
+    border: 1px solid  rgba(204, 204, 204, 0.473);
+    background: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.respuesta {
+    width: 100%;
+    min-height: 80px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.right {
+    margin-right: 7px;
+}
+.opciones {
+    width: 100%;
+    height: auto;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.opciones ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+.opciones li{
+    padding: 10px;
+}
+.opciones li:hover {
+    background-color: rgb(218, 218, 218);
+    cursor: pointer;
+}
+.ops {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.ops p {
+    padding-left: 20px;
+    margin: 0;
+}
+.lista {
+    display: none;
+}
+.on {
+    display: block;
+}
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Alerts {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

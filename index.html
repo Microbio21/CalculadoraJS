@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="calculadora">
+        <h1>Calculadora</h1>
+        <p id="Alerts"></p>
+        <input type="text" id="n1" placeholder="0">
+        <input type="text" id="n2" placeholder="0" name="input">
+
+        <select id="opciones" >
+            <option value="+" class="op">Sumar</option>
+            <option value="-" class="op">Restar</option>
+            <option value="/" class="op">Dividir</option>
+            <option value="*" class="op">Multiplicar</option>
+            <option value="%" class="op">Porcentaje</option>
+        </select>
+
+        <!--    
+         
+            <div id="opciones" class="opciones">
+                <div class="ops" id="abrir">
+                    <p>Opciones</p>
+                </div>
+                <ul class="lista" id="listado">
+                    <li value="+">+ Sumar +</li>
+                    <li value="-">- Restar -</li>
+                    <li value="/">/ Dividir /</li>
+                    <li value="*">* Multiplicar *</li>
+                    <li value="%">% Porcentaje %</li>
+                </ul>
+            </div>
+
+        -->
+        <button class="calcular" id="calcular">CALCULAR</button>
+        <div class="respuesta" id="respuesta">
+            <h3 class="right">Respuesta:</h3>
+            <h3 id="dato"></h3>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

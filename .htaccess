@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^(.*)$ https://microbio21.github.io/CalculadoraJS/index.htmls/$1 [R=301,L]
